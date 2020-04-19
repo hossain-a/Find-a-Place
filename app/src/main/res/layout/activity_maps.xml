@@ -7,7 +7,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
 
         <EditText
             android:id="@+id/location_search"
@@ -28,6 +29,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:onClick="onClick"
+            android:background="#FFFFFF"
             android:src="@mipmap/search"/>
 
     </RelativeLayout>
